@@ -3,9 +3,12 @@ GOAL: Make a responsive and simple website which will display information
 about a certain topic. Include all common elements found in most websites.
 ------------------------------------------------------------------------------
 LONG TERM:
-1 - Add animations to the header texts (Not initiated)
+- Add animations to the headers (Done)
+- Create About page (On-Track)
+- Create footer with its required info (On-track)
 
 
 SHORT TERM:
-1 - Create a navbar (Done)
-2 - Create footer with its required info (On-track)
+- Create a navbar (Done)
+- Create Content page with all needed info (Finalizing)
+- Function to switch between Home, Content and About without leaving the page (Waiting for about page completition)
