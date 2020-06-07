@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+.center-flex{
+    min-height: 100vh;
+    color: rgb(0, 0, 0);
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Text Gradient */
+h1 {
+  background: -webkit-linear-gradient(45deg,#ff3300, #00d9ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h2{
+   background: -webkit-linear-gradient(45deg,#ff3300, #000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* End of Text Gradient */
+
+/* Background Image */
+.bg-img1{
+    background: url("../images/bg1_lightbulb.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.bg-img2{
+    background: url("../images/bg2_lightbulb.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* End of Background Image */
+
+/* Custom Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 0.6rem;
+}
+/* track */
+::-webkit-scrollbar-track {
+  background: #202020;
+}
+/* handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(72, 72, 72);
+}
+/* handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* End of Custom Scrollbar */
+
